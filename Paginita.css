@@ -1,0 +1,90 @@
+*{
+ margin:0;
+ padding: 0;
+}
+
+#vaso{
+width: 1200px;
+height: 1000px;
+margin: 0.5em auto;
+padding: 0.5em;
+}
+
+#cabezazo{
+height: 10%;
+background: #073E07;
+border-radius: 1em;
+margin: 1em;
+}
+
+#principal{
+height: 48%;
+border-radius: 1em;
+margin: 1em;
+}
+
+#botones{
+height: 25%;
+background: #0A5D0A;
+border-radius: 1em;
+margin: 1em;
+}
+
+#pie{
+height: 10%;
+background: #031F03;
+border-radius: 1em;
+margin: 1em;
+}
+
+.contenedor{
+width: 22%;
+height: 85%;
+float: left;
+margin: 1em;
+border-radius: 1em;
+}
+
+.titulo{
+text-align: center;
+font-size: 40px;
+font-family: "candara";
+font-weight: bold;
+color: #18D918;
+}
+
+.subti{
+text-align: center;
+font-size: 30px;
+font-family: "candara";
+color: #FFFFFF;
+}
+
+.parrafo{
+text-align: center;
+font-family: "helvetica";
+font-size: 18px;
+}
+
+.estilo{
+text-decoration: none;
+display: block;
+height: 200px;
+padding: 0.5em;
+border-radius: 1em;
+text-align: center;
+background-color: #41CB41;
+color: #FFFFFF;
+font-family: "candara";
+font-size: 24px;
+transition: 1s;
+-o-transition: 1s;
+-ms-transition: 1s;
+-moz-transition: 1s;
+-webkit-transition: 1s;
+}
+
+.estilo:hover{
+background-color: #FFFFFF;
+color: #1A31F7;
+}
